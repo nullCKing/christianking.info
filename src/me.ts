@@ -90,15 +90,15 @@ export const me = {
     {
       name: "Face & Eye Detection Model",
       description:
-        "Built in Python3, using OpenCV, Pillow, and tkinter/customtkinter frameworks. The program provides live detection of both faces and eyes, and displays this detection through a webcam relay within a minimalistic GUI using customtkinter.",
+        "Built in C++, using OpenCV and ImGui-SFML. The program provides live detection of both faces and eyes, and displays this detection through a webcam relay within a minimalistic GUI using customtkinter.",
       contribution:
         "",
       image: "",
-      technologies: ["Python", "OpenCV", "Pillow"],
+      technologies: ["C++", "OpenCV", "ImGui"],
       links: [
         {
           name: "Github",
-          uri: "https://github.com/nullCKing/Face-Eye-Detection-Model",
+          uri: "",
         },
       ],
     },
