@@ -97,8 +97,6 @@ export const me = {
       technologies: ["C++", "OpenCV", "ImGui"],
       links: [
         {
-          name: "Github",
-          uri: "",
         },
       ],
     },
@@ -111,10 +109,6 @@ export const me = {
       links: [
         {
           name: "Website",
-          uri: "",
-        },
-        {
-          name: "Github",
           uri: "",
         },
       ],
