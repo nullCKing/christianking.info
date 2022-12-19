@@ -88,15 +88,17 @@ export const me = {
   ],
   projects: [
     {
-      name: "Face & Eye Detection Model",
+      name: "Advanced Encryption System with Face ID authorization",
       description:
-        "Built in C++, using OpenCV and ImGui-SFML. The program provides live detection of both faces and eyes, and displays this detection through a webcam relay within a minimalistic GUI using customtkinter.",
+        "Implemented a text file encryption and decryption tool using the Advanced Encryption Standard (AES) / Rijndael algorithm and user authentication through facial recognition with OpenCV. Supported encryption key lengths of 128, 192, and 256 bits. Utilized webcam input to verify user identity before granting access to decrypted text.",
       contribution:
         "",
       image: "",
-      technologies: ["C++", "OpenCV", "ImGui"],
+      technologies: ["C++", "OpenCV", "AES"],
       links: [
         {
+	  name: "Github",
+          uri: "https://github.com/nullCKing/Face-ID-AES-256-Bit-Encryption",
         },
       ],
     },
