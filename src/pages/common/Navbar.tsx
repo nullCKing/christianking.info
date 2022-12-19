@@ -38,39 +38,6 @@ export const Navbar = () => {
   );
 };
 
-const DesktopOptions = () => {
-  return (
-	<Stack direction={"row"} spacing={4} align={"flex-start"}>
-      {options.map((option) => (
-        <Flex
-          align={"flex-start"}
-          key={option.name}
-          as={Link}
-          to={option.href}
-          smooth={true}
-          cursor={"pointer"}
-		  borderWidth = {'2px'}
-		  borderColor = "white"
-          bg="black"
-          px={8}
-          py={2}
-          rounded={"md"}
-          _hover={{
-            bg: "white",
-          }}
-          transition={"all 0.2s ease-in-out"}
-        >
-          <Text
-            fontWeight={"bold"}
-            color="white"
-          >
-            {option.name}
-          </Text>
-        </Flex>
-      ))}
-    </Stack>
-  );
-};
 
 const BottomSheet = ({
   isOpen,
