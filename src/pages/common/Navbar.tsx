@@ -29,7 +29,7 @@ export const Navbar = () => {
               <Box h={'10%'}>
 			  </Box>
             ) : (
-              <DesktopOptions />
+               <Box h={'10%'}>
             )}
           </Flex>
         </Container>
