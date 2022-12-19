@@ -26,10 +26,9 @@ export const Navbar = () => {
 		<Container maxW={"75%"}>
           <Flex justify={"space-between"}>
             {isMobile ? (
-              <Box h={'10%'}>
-			  </Box>
+              <Box h={'10%'}/>
             ) : (
-               <Box h={'10%'}>
+               <Box h={'10%'}/>
             )}
           </Flex>
         </Container>
