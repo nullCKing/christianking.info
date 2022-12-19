@@ -28,7 +28,7 @@ export const Navbar = () => {
             {isMobile ? (
               <Box h={'10%'}/>
             ) : (
-               <Box h={'10%'}/>
+               <Box h={'1%'}/>
             )}
           </Flex>
         </Container>
